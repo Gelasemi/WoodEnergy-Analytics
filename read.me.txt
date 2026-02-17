@@ -1,0 +1,29 @@
+🌲 README : WoodEnergy Analytics v5 (Smart Scierie)
+📝 Description
+WoodEnergy Analytics est une plateforme de pilotage énergétique destinée aux scieries modernes (Industrie 4.0). Elle permet de calculer en temps réel le coût de revient énergétique par m³ de bois en fonction de l'essence sciée et des données de télémétrie des machines.
+🚀 Fonctionnalités Clés
+Pilotage IoT : Connexion via protocole MQTT aux capteurs de puissance (Schneider Electric / Siemens).
+Calcul Analytique : Détermination automatique du coût de fonctionnement selon l'essence (Sapin, Pin, Hêtre, Chêne).
+Optimisation "Smart Grid" : Algorithme de planification favorisant les heures creuses pour les postes énergivores (Séchoirs).
+Bilan Carbone : Reporting automatique des émissions de 
+ par cycle de production.
+Aide à la Décision : Tableau de bord interactif pour ajuster les prix de vente selon le coût réel de l'énergie.
+🛠️ Stack Technique
+Langage : Python 3.x
+Interface : Streamlit (Dashboard interactif)
+Visualisation : Plotly (Graphiques dynamiques)
+Protocole IoT : Paho-MQTT (Communication automates)
+Data : Pandas (Traitement analytique)
+📦 Installation Rapide
+bash
+# Installation des bibliothèques nécessaires
+pip install streamlit pandas plotly paho-mqtt
+
+# Lancement de l'application
+streamlit run WoodEnergy_Ultimate_v5.py
+Utilisez le code avec précaution.
+
+📈 Bénéfices Utilisateur
+Rentabilité : Réduction des factures d'électricité par l'optimisation des cycles.
+Précision : Passage d'un coût de revient estimé à un coût réel facturable au client.
+Image : Valorisation écologique du bois grâce au rapport d'empreinte carbone.
